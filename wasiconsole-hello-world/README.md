@@ -24,7 +24,7 @@ Or directly start node from the AppBundle directory:
 
 ```
 cd .\bin\Debug\net8.0\wasi-wasm\AppBundle\
-wasmtime .\dotnet.wasm --dir . wasiconsole-hello-world
+wasmtime run wasiconsole-hello-world.wasm $*
 ```
 
 ## If you want single file WASM
